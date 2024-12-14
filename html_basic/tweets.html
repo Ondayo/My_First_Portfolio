@@ -6,19 +6,33 @@
     <title>Embedded Tweets</title>
 </head>
 <body>
-    <h1>Welcome to the Tweets Page!</h1>
-    
-    <!-- Embed a tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Twitter embedding example: Learn to code with enthusiasm and joy!</p>
-        <a href="https://twitter.com/TwitterDev/status/560070183650213889">January 27, 2015</a>
-    </blockquote>
+    <!-- Header with Navigation -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Link to go back to the homepage -->
-    <p>
-        <a href="index.html">Go back to the homepage</a>
-    </p>
+    <!-- Main Content -->
+    <main>
+        <article>
+            <h1>Welcome to the Tweets Page!</h1>
+            <!-- Embed a tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Twitter embedding example: Learn to code with enthusiasm and joy!</p>
+                <a href="https://twitter.com/TwitterDev/status/560070183650213889">January 27, 2015</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Footer -->
+    <footer>
+        <p>Made by <YOUR NAME> - <a href="<ANY LINK>" target="_blank">here</a>.</p>
+    </footer>
 </body>
 </html>
