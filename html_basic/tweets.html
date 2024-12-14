@@ -3,32 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tweets</title>
+    <title>Embedded Tweets</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
-    </header>
-    <main>
-        <article>
-            <h1>My Tweets</h1>
-            <p>Here's a collection of tweets or short updates that I would like to share with you!</p>
-            
-            <h2>Tweet #1</h2>
-            <p>Learning HTML and structuring a basic website is so much fun!</p>
+    <h1>Welcome to the Tweets Page!</h1>
+    
+    <!-- Embed a tweet -->
+    <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Twitter embedding example: Learn to code with enthusiasm and joy!</p>
+        <a href="https://twitter.com/TwitterDev/status/560070183650213889">January 27, 2015</a>
+    </blockquote>
 
-            <h2>Tweet #2</h2>
-            <p>Excited to start adding more features to this portfolio.</p>
-        </article>
-        <aside>
-            <p>Placeholder to add comment thread later</p>
-        </aside>
-    </main>
-    <footer>
-        <p>Made by SAMUEL OTIENO - <a href="https://www.alxafrica.com" target="_blank">here</a></p>
-    </footer>
+    <!-- Link to go back to the homepage -->
+    <p>
+        <a href="index.html">Go back to the homepage</a>
+    </p>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
